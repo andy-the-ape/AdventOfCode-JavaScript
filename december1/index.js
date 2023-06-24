@@ -23,3 +23,10 @@ numberArray.sort();
 for (const number of numberArray) {
     console.log(number);
 }
+
+let top3calories =
+    numberArray.at(numberArray.length-1) +
+    numberArray.at(numberArray.length-2) +
+    numberArray.at(numberArray.length-3);
+
+console.log(top3calories);
